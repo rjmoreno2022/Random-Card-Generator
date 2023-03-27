@@ -1,26 +1,26 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 .card {
-  width: 16rem; /* 150px / 16px = 9.375rem */
-  height: 24rem; /* 200px / 16px = 12.5rem */
-  border: 0.0625rem solid black; /* 1px / 16px = 0.0625rem */
-  border-radius: 0.625rem; /* 10px / 16px = 0.625rem */
+  width: 16rem;
+  height: 24rem;
+  border: 0.0625rem solid black;
+  border-radius: 0.625rem;
 }
 
 .card-value {
-  font-size: 5rem; /* 80px / 16px = 5rem */
+  font-size: 5rem;
 }
 
 .card-figura-1 {
-  font-size: 4rem; /* 40px / 16px = 2.5rem */
+  font-size: 4rem;
 }
 
 .card-figura-2 {
-  font-size: 4rem; /* 40px / 16px = 2.5rem */
+  font-size: 4rem;
   transform: rotateX(180deg);
 }
 
 button {
-  margin-top: 1.25rem; /* 20px / 16px = 1.25rem */
-  font-size: 1.5rem; /* 24px / 16px = 1.5rem */
+  margin-top: 1.25rem;
+  font-size: 1.5rem;
 }

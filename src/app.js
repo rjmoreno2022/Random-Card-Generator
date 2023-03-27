@@ -39,6 +39,24 @@ window.myClickFunction = function myClickFunction() {
   generateCard();
 };
 
+let anchoInput = document.getElementById("card-width-input");
+
+anchoInput.addEventListener("input", () => {
+  let nuevoAncho = anchoInput.value;
+  console.log(`El ancho ha cambiado a ${nuevoAncho}`);
+  let card = document.querySelector(".card");
+  card.style.width = nuevoAncho > 5 ? nuevoAncho + "rem" : "16rem";
+});
+
+let alturaInput = document.getElementById("card-height-input");
+
+alturaInput.addEventListener("input", () => {
+  let nuevaAltura = alturaInput.value;
+  console.log(`La altura ha cambiado a ${nuevaAltura}`);
+  let card = document.querySelector(".card");
+  card.style.height = nuevaAltura > 18 ? nuevaAltura + "rem" : "24rem";
+});
+
 window.onload = function() {
   //write your code here
   console.log("Hello Rigo from the console!");
